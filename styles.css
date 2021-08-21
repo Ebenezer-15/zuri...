@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+
+body{
+    background-color: #6c757d;
+    
+}
+.banner{
+  background: #212529
+  
+  }
+
+  .banner{
+    padding:  0 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content : center;
+  
+  
+}
+
+#footer{
+  background-color: #343a40;
+  animation-delay: 4s;
+}
+
+.about{
+  background-color: #343a40;
+  animation-delay: 4s;
+ 
+}
+
+.bannerText h5{
+  font-size: 30px;
+  padding: 10px 0;
+}
+.Bspan{
+  color: rgb(231, 27, 61);
+}
+.bannerText h2{
+  font-size: 40px;
+}
+
+.bannerText p{
+  font-size: 20px;
+  padding: 10px 0;
+}
+.B2span{
+  color: rgb(231, 27, 61);
+
+} 
+.bannerBtn{
+  padding: 10px 0;
+}
+
+.bannerBtn a{
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 7px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid rgb(231, 27, 61) ;
+}
+.bannerBtn a:hover{
+   background-color: rgb(231, 27, 61);
+   letter-spacing: 2px;
+   padding: 10px 10px;
+
+}
+
+
+.about{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+   
+}
+.about h3{
+   padding: 20px 0;
+   font-size: 30px;
+}
+
+.about p{
+    
+  max-width: 50%;
+  padding: 20px 0;
+}
+
+.aboutBtn{
+  padding: 10px 0;
+
+}
+.aboutBtn a{
+  color: white;
+  margin-right: 10px;
+  background-color: rgb(231, 27, 61);
+  text-decoration: none;
+  padding: 7px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid rgb(231, 27, 61) ;  
+}
+.aboutBtn a:hover{
+  background: none;
+  letter-spacing: 2px;
+  padding: 10px 10px;
+}
+footer{
+  
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  height: 60px;
+  
+}
+footer a{
+  
+  color: white;
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 7px;
+  transition: 0.5s ease-in-out;
+  border: 2px solid rgb(231, 27, 61) ;
+}
+footer a:hover{
+   background-color: rgb(231, 27, 61);
+   letter-spacing: 2px;
+   padding: 10px 10px;
+
+}    
+
+@media screen and (max-width: 768px){
+  .banner{
+      padding: 0 30px;
+  } 
+
+  .bannerText h5{
+    font-size: 25px;
+}
+
+.bannerText h2{
+    font-size: 35px;
+}
+.bannerText p{
+    font-size: 20px;
+ }
+ .about h3{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.about p{
+    
+    max-width: 80%;
+    padding: 20px 0;
+} 
+}
